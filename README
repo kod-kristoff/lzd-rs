@@ -1,0 +1,39 @@
+See the file INSTALL for compilation and installation instructions.
+
+Description
+
+Lzd is a simplified decompressor for the lzip format with an educational
+purpose. Studying its source code is a good first step to understand how
+lzip works. Lzd is written in C++.
+
+The source code of lzd is used in the lzip manual as a reference
+decompressor in the description of the lzip file format. Reading the lzip
+manual will help you understand the source code. Lzd is compliant with the
+lzip specification; it checks the 3 integrity factors.
+
+The source code of lzd is also used as a reference in the description of the
+media type 'application/lzip'.
+See http://datatracker.ietf.org/doc/draft-diaz-lzip
+
+Lzd decompresses from standard input to standard output. It accepts (and
+ignores) the option '-d' for compatibility with other lzip tools. In
+particular, accepting the option '-d' allows lzd to be used as argument to
+the option '--lz' of the tools from the zutils package.
+
+Lzd correctly decompresses the concatenation of two or more compressed
+files. The result is the concatenation of the corresponding decompressed
+data. Integrity of such concatenated compressed input is also checked.
+
+The ideas embodied in lzd are due to (at least) the following people:
+Abraham Lempel and Jacob Ziv (for the LZ algorithm), Andrei Markov (for the
+definition of Markov chains), G.N.N. Martin (for the definition of range
+encoding), and Igor Pavlov (for putting all the above together in LZMA).
+
+
+Copyright (C) 2013-2025 Antonio Diaz Diaz.
+
+This file is free documentation: you have unlimited permission to copy,
+distribute, and modify it.
+
+The file Makefile.in is a data file used by configure to produce the Makefile.
+It has the same copyright owner and permissions that configure itself.

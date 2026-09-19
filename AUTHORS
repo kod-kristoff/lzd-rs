@@ -1,0 +1,6 @@
+Lzd was written by Antonio Diaz Diaz.
+
+The ideas embodied in lzd are due to (at least) the following people:
+Abraham Lempel and Jacob Ziv (for the LZ algorithm), Andrei Markov (for the
+definition of Markov chains), G.N.N. Martin (for the definition of range
+encoding), and Igor Pavlov (for putting all the above together in LZMA).

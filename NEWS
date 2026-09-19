@@ -1,0 +1,7 @@
+Changes in version 1.5:
+
+lzd now exits with error status 2 if any empty member is found in a
+multimember file.
+
+lzd now exits with error status 2 if the first byte of the LZMA stream is
+not 0.

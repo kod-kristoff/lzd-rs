@@ -1,0 +1,86 @@
+2025-01-02  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.5 released.
+	* lzd.cc: Reject empty members and nonzero first LZMA byte.
+
+2024-01-02  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.4 released.
+	* lzd.cc: Use header_size and trailer_size instead of 6 and 20.
+
+2022-10-24  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.3 released.
+	* lzd.cc (Range_decoder): Discard first LZMA byte explicitly.
+
+2021-01-04  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.2 released.
+	* lzd.cc (main): Check also mismatches in member size.
+	  Accept and ignore the option '-d' for compatibility with zutils.
+	  Remove warning about "lzd not safe for real work".
+	  Print license notice.
+	* testsuite: Add 10 new test files.
+
+2019-01-11  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.1 released.
+	* Rename File_* to Lzip_*.
+	* lzd.cc: Compile on DOS with DJGPP.
+	* configure: Accept appending to CXXFLAGS; 'CXXFLAGS+=OPTIONS'.
+
+2017-05-02  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 1.0 released.
+	* lzd.cc: Minor code improvements.
+	* check.sh: Require a POSIX shell.
+
+2016-05-10  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.9 released.
+	* configure: Avoid warning on some shells when testing for g++.
+
+2016-01-23  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.8 released.
+	* Document that lzip does not use 'literal_pos_state_bits'.
+
+2015-07-07  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.7 released.
+	* Minor changes.
+
+2014-08-25  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.6 released.
+	* Minor changes.
+
+2013-09-17  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.5 released.
+	* Minor changes.
+
+2013-08-01  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.4 released.
+	* check.sh: Remove '/dev/full' from tests.
+
+2013-07-24  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.3 released.
+	* decoder.cc and main.cc have been merged into lzd.cc.
+
+2013-05-06  Antonio Diaz Diaz  <antonio@gnu.org>
+
+	* Version 0.2 released.
+	* main.c: Add a missing '#include' for OS/2.
+
+2013-03-21  Antonio Diaz Diaz  <ant_diaz@teleline.es>
+
+	* Version 0.1 released.
+
+
+Copyright (C) 2013-2025 Antonio Diaz Diaz.
+
+This file is a collection of facts, and thus it is not copyrightable, but just
+in case, you have unlimited permission to copy, distribute, and modify it.
